@@ -186,7 +186,7 @@ $startBtn.click(function () {
         gameOn();
 
         function gameOn() {
-            if (round > 1 && round <= Questions.list.lenth) {
+            if (round > 1 && round <= Questions.list.length) {
                 startTimer();
             }
             $startBtn.removeClass('outline');
